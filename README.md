@@ -58,7 +58,7 @@ The images are used to evaluate automatic reflection detection, manual mask refi
 
 1.Sumaiya Parveen (PES1UG24EC341)
 2.Vachana Hiremath( PES1UG24EC230)
-3.teja(PES1UG24EC)
+3.Chintha Tejadeepthi (PES1UG24EC057)
 
 
 ### Steps:
@@ -147,10 +147,13 @@ The project uses MATLAB functions from the Image Processing Toolbox and MATLAB's
 ### References:
 
 1. Gonzalez, R. C., and Woods, R. E., *Digital Image Processing*, 4th Edition, Pearson.
+   
 2. Levin, A., and Weiss, Y. (2007). "User Assisted Separation of Reflections from a Single Image Using a Sparsity Prior."
     IEEE Transactions on Pattern Analysis and Machine Intelligence, 29(9), 1647–1654. https://doi.org/10.1109/TPAMI.2007.1106
+   
 3.Huang, Y., Quan, Y., Xu, Y., Xu, R., and Ji, H. (2020). "Removing Reflection From a Single Image With Ghosting Effect."
     IEEE Transactions on Computational Imaging, 6, 34–45. https://doi.org/10.1109/TCI.2019.2899320
+    
 4. MathWorks Documentation:
    - `regionfill()` – Image Processing Toolbox.
    - `imgaussfilt()` – Gaussian filtering.
