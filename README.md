@@ -78,6 +78,60 @@ The images are used to evaluate automatic reflection detection, manual mask refi
 7. Inspect the automatically detected reflection regions and use the interactive mask editor to add or remove regions.
 8. Confirm the final mask to perform reflection removal and view the reconstructed output.
 
+
+### MATLAB Functions and Dependencies
+
+The project uses MATLAB functions from the Image Processing Toolbox and MATLAB's built-in functions, including:
+
+**Image Input and Representation**
+- `uigetfile`
+- `imread`
+- `im2double`
+- `rgb2gray`
+- `imshow`
+- `imhist`
+
+**Image Filtering and Enhancement**
+- `imfilter`
+- `medfilt2`
+- `imgaussfilt`
+- `imsharpen`
+
+**Frequency-Domain Analysis**
+- `fft2`
+- `fftshift`
+- `abs`
+- `log`
+
+**Edge Detection and Morphological Operations**
+- `edge`
+- `strel`
+- `imtophat`
+- `imclose`
+- `imdilate`
+- `imfill`
+- `bwareaopen`
+
+**Reflection Detection and Mask Processing**
+- `stdfilt`
+- `prctile`
+- `drawfreehand`
+- `createMask`
+- `logical`
+
+**Image Reconstruction and Saving**
+- `regionfill`
+- `bwdist`
+- `imwrite`
+
+**Other MATLAB Functions**
+- `size`
+- `numel`
+- `round`
+- `max`
+- `min`
+- `fullfile`
+
 ### Outputs:
 
 - Original RGB and grayscale images.
@@ -102,6 +156,7 @@ The images are used to evaluate automatic reflection detection, manual mask refi
    - `imgaussfilt()` – Gaussian filtering.
    - `stdfilt()` – Local standard deviation filtering.
    - `drawfreehand()` – Interactive ROI selection.
+   
 
 ### Limitations and Future Work:
 
