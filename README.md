@@ -57,14 +57,14 @@ The images are used to evaluate automatic reflection detection, manual mask refi
 ### Contributors:
 
 1.Sumaiya Parveen (PES1UG24EC341)
-2. Name (PES1UG24EC)
+2.Vachana (PES1UG24EC)
 3.(PES1UG24EC)
 
 
 ### Steps:
 1. Clone the repository:
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/DIP-2026-MINI-PROJECT/Classical-DIP-Reflection-Removal.git
    ```
 
 2. Open MATLAB (R2024b or compatible version).
