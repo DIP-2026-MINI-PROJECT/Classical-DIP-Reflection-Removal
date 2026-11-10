@@ -57,8 +57,8 @@ The images are used to evaluate automatic reflection detection, manual mask refi
 ### Contributors:
 
 1.Sumaiya Parveen (PES1UG24EC341)
-2.Vachana (PES1UG24EC)
-3.(PES1UG24EC)
+2.Vachana Hiremath( PES1UG24EC230)
+3.teja(PES1UG24EC)
 
 
 ### Steps:
